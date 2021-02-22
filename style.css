@@ -62,29 +62,12 @@
 .whatsapp-icon {
     margin-top:13px;
 }
-.facebook {
-    position:fixed;
-    width:60px;
-    height:60px;
-    bottom:40px;
-    right:110px;
-    background-color:#4267B2;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    font-size:30px;
-    z-index:100;
-}
-
-.facebook-icon {
-    margin-top:15px;
-}
 .envelope {
     position:fixed;
     width:60px;
     height:60px;
     bottom:40px;
-    right:180px;
+    right:110px;
     background-color:#BB001B;
     color:#FFF;
     border-radius:50px;
@@ -166,47 +149,11 @@
     height: 100%;
 }
 
-.form {
-    width:100%;
-    height: 500px;
-    margin:0 auto;
-    display: flex;
-    flex-direction: column;
-    grid-area: box3;
-}
-
-.form input{
-    border: none;
-    background: #e5e9ec;
-    color: rgb(140, 140, 140);
-    font-size: 1.5em;
-    width: 100%;
-    height: 60px;
+.info h2{
+    font-size: 1.8em;
     margin-bottom: 1em;
-    padding: 10px;
+    color: green;
 }
-
-.form .mensaje{
-    width: 100%;
-    background: #e5e9ec;
-    color: rgb(140, 140, 140);
-    padding: 15px;
-    font-size: 1.5em;
-    border:none;
-    margin-bottom: 1em;
-}
-
-
-form button{
-    background: #07ac07;
-    color: white;
-    padding: 1em;
-    font-size: 1.2em;
-    border: none;
-    cursor: pointer;
-    width:25%;
-}
-
 .info p{
     font-size: 1.2em;
     margin-bottom: 1em;
@@ -232,15 +179,7 @@ form button{
     .contacto {
         padding: 5em 2em;
     }
-    form button{
-        padding: .5em;
-        width:100%;
-        height: 50px
-    }
     .whatsapp {
-        bottom:25px;
-    }
-    .facebook {
         bottom:25px;
     }
     .envelope {
@@ -264,5 +203,8 @@ form button{
     }
     .servicios h1{
         font-size: 3em;
+    }
+    .wrap-contacto {
+        margin-bottom: 5.5em;
     }
 }
