@@ -212,12 +212,19 @@
     .contacto {
         display: flex;
         flex-direction: column;
+        padding: 5em 2em;
     }
     .contacto h1{
         font-size: 3em;
     }
     .contacto #map {
         margin-bottom: 2em;
+    }
+    .servicios {
+        padding: 5em 2em;
+    }
+    .servicios .grid{
+        padding: 4em 0;
     }
     .servicios h1{
         font-size: 3em;
@@ -226,6 +233,7 @@
         margin-bottom: 5.5em;
     }
     .horarios > p{
+        display: flex;
         flex-direction: column;
     } 
 }
