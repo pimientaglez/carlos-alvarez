@@ -162,6 +162,9 @@
 .info p span{
     font-weight: 400;
 }
+.horarios-wrap {
+    width: 60%;
+}
 .horarios-wrap h2{
     margin-bottom: .8em;
 }
