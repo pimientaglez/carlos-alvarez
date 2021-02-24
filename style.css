@@ -162,6 +162,15 @@
 .info p span{
     font-weight: 400;
 }
+.horarios-wrap h2{
+    margin-bottom: .8em;
+}
+.horarios > p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
 @media only screen 
     and (device-width : 414px) 
     and (device-height : 736px) 
@@ -188,9 +197,11 @@
     }
     .envelope {
         bottom:25px;
-    }    
+    }  
+    .horarios > p{
+        flex-direction: column;
+    }  
 }
-
 @media only screen and (max-width: 800px) {
     .hero h1{
         font-size: 2em;
@@ -211,4 +222,7 @@
     .wrap-contacto {
         margin-bottom: 5.5em;
     }
+    .horarios > p{
+        flex-direction: column;
+    } 
 }
